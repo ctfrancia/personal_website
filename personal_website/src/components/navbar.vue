@@ -47,8 +47,12 @@ const app = new Vue({
   router
 }).$mount('#app');
 export default {
-  name: "NavBar"
+  name: "NavBar",
+  data () {
+    return {
 
+    }
+  }
 };
 </script>
 <style scoped>
